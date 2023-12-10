@@ -10,7 +10,7 @@ public:
     float Speed;
     float MouseSensitivity;
     Camera3D Camera{}; // YOU NEED TO ASSIGN CAMERA YOURSELF
-    Vector3 Rotation{};
+    Vector3 Rotation{ Vector3(0.0f, -90.0f, 0.0f) };
 private:
     void UpdateVectors();
 };

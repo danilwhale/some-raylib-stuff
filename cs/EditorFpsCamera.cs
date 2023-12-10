@@ -7,7 +7,7 @@ namespace SomeRaylibStuff;
 
 public class EditorFpsCamera
 {
-    public Vector3 Rotation;
+    public Vector3 Rotation  = new Vector3(0, -90, 0);
     public Camera3D Camera; // YOU NEED TO ASSIGN CAMERA YOURSELF
     public float Speed;
     public float MouseSensitivity;
